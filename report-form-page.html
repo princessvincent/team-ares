@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/report-form.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-6 fw-bold p-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="landing-page.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="follow-up-normal-view-2.html">Follow Up Case</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact_us.html">Contact Us</a>
+                </li>
+            </ul>
+            <div>  <a  href="report-form-page.html" class=" mt-3 text-light px-5 py-2 text-decoration-none" style="background-color: #274690;">
+              Submit Report
+          </a>
+                  </div>
+        </div>
+    </div>
+</nav>
+    <section class="top-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 mt-3">
+                    <span class="h2">Report a new case</span>
+                   <div class="info mt-3 ">
+                    <h5 class="text-center pt-2">Reporter Information</h5>
+                    <form action="#">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Surname">
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Middle Name">
+                          </div>
+                          <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                          </div>
+                          <div class="mb-3">
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+234">
+                          </div>
+                    </form>
+                   </div>
+
+                   <div class="info mt-3 text-center">
+                    <h5 class="text-center pt-2">Victim Information</h5>
+                    <form action="#">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Surname">
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Middle Name">
+                          </div>
+                          <div class="mb-3">
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Age">
+                          </div>
+
+                          <!--Modify this-->
+                          <div class="gender d-flex justify-content-start mb-1">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label fw-bold" for="inlineRadio1">Gender:</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Male</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Female</label>
+                              </div>
+                          </div>
+
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Occupation">
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Address">
+                          </div>
+                          <div class="mb-3">
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+234">
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Known Location">
+                          </div>
+                          <div class="mb-3">
+                            <input type="datetime-local" class="form-control" id="exampleFormControlInput1" placeholder="Date Last Seen">
+                          </div>
+                    </form>
+                   </div>
+                
+
+
+                   <div class="info mt-3 ">
+                    <h5 class="text-center pt-2">Evidence</h5>
+                    <!---Start here-->
+                    <div class="pink">
+                        <ul class="list-unstyled">
+                            <li> Note: You are to provide:</li>
+                            <li>*A detailed report of the case</li>
+                            <li>*Upload any visual evidence if available.</li>
+                        </ul>
+                    </div>
+
+                    <span class="h5">Report</span>
+
+                    <div class="form mt-3">
+                       <textarea class="form-control" placeholder="Add your report here..."></textarea>
+                     </div>
+   
+                    <div class="d-flex mt-3">
+                       <span class="h6">Time: 5:00PM</span>
+                       <span class="ps-5 h6">Date: 1-06-2021</span>
+                    </div>
+   
+                 <div class="mt-3 form">    
+                       <div class="file-path-wrapper d-flex">
+                          <button class="btn btn-primary" type="button" x-on:click.prevent="$refs.file.click()">Browse</button>
+                         
+                          <div class="ms-5 d-flex flex-column">
+                           <input class="px-5 file-path validate mb-3" type="text" placeholder="Upload Image/video">
+                            <h6 class="mb-3"><i class="bi bi-plus-circle-fill"></i>  add other images/videos</h6>
+   
+                            <ul>
+                                <li>File type accepted: Image (JPEG or PNG), Video (mp4)</li>
+                                <li>Max upload file size: Image (3MB), Video (25MB)</li>
+                            </ul>
+                          </div>
+                          
+                          <i class="ms-3 bi bi-x-circle-fill"></i>
+                         </div>
+                   </div>
+               
+   
+                 <div class="mt-3">
+                   <div class="form-check">
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <label class="form-check-label" for="flexCheckChecked"> Agree to our terms of use </label>
+                     </div>
+   
+                     <div class="form-check">
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <label class="form-check-label" for="flexCheckChecked"> Agree to our privacy policy </label>
+                     </div>
+   
+                     <div class="form-check">
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <label class="form-check-label" for="flexCheckChecked">Notify me of new Updates regarding this case. </label>
+                     </div>
+                 </div>
+   
+                 <div class="button-end mt-3 d-flex justify-content-end pb-5">
+                   <a class="btn btn-outline-danger btn-lg text-decoration-none" href="landing-page.html" role="button">Back</a>
+                   <a class="ms-3 btn btn-primary btn-lg text-decoration-none" href="sucessfull-page.html">Submit</a>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bottom">
+     <div class="container">
+         <div class="row">
+             <div class="col-md-9 mt-3">
+               
+             </div>
+         </div>
+     </div>
+    </section>
+   <script src="script/bootstrap.min.js"></script>
+   <footer class ="color" class=" text-white pt-5 pb-4">
+    <div class="container text-centre test-md-left">
+     <div class="search">
+        <img src="./images/logo.png" alt="" class="img-fluid w-50">
+    </div>
+        <div class="row text-center text-md-left mt-5">
+          
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto  d-flex flex-column">
+                <a href="landing-page.html" class="text-decoration-none text-dark ">Home</a>
+                <a href="follow-up-normal-view-2.html" class="text-decoration-none text-dark pt-3">Follow Up Case</a>
+                <a href="about-us.html" class="text-decoration-none text-dark pt-3">About us</a>
+                <a href="contact_us.html" class="text-decoration-none text-dark pt-3">Contact us</a>
+            </div>
+            
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-auto ">
+
+                    <h5 class="">Follow Us On</h5>
+           
+              <p><i class="fab fa-facebook-f"> Facebook</i></p>  
+               <p> <i class="fab fa-twitter"> Twitter </i></p>
+               <p><i class="fab fa-instagram"> Instagram </i></p> 
+            </div>
+          
+        </div>
+        <div class="policy">
+          <a href="terms-of-use.html" class="text-decoration-none text-dark">Terms of use </a>
+          <a href="privacy.html" class="text-decoration-none text-dark px-3"  >  Privacy Policy </a>
+    </div>
+    <div class="c">
+    <p><img src="images/c.svg" alt="c"></p>
+    <p>2021 Search4me Lagos, Nigeria </p>
+</div>
+    </div>
+</footer>
+</body>
+</html>
