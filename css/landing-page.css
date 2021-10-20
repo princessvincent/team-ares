@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-img{
+    background-image: url(../images/cool-background\ 2.png);
+    width: 100%;
+    height: auto;
+}
+.report{
+    padding-top: 5rem;
+}
+.btn{
+    width: 13rem;
+}
+.img-resize{
+    width: 100%;
+}

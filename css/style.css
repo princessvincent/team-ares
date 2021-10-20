@@ -1,0 +1,32 @@
+.search{
+    position: absolute;
+    margin-top: 100px;
+    
+}
+.color{
+    background-color: #D6F2FF;
+}
+.container{
+    overflow: hidden;
+}
+.policy {
+    display: flex;
+justify-content: center;
+}
+.policy p:nth-child(2){
+    padding-left: 3%;
+}
+.c{
+    display: flex;
+    justify-content: center;
+}
+
+.c p:nth-child(1){
+    margin-right: 2%;
+}
+.sea{
+    color: #274690;
+}
+.me{
+    color: rgba(204, 19, 19, 0.856);
+}

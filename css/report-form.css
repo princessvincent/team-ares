@@ -1,0 +1,76 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+*, body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.top-part h5{
+    background: #274690;
+    height: 40px;
+    color: #fff;
+}
+
+.pink{
+    background: #E05974;
+    width: 35%;
+    color: #fff;
+}
+
+.form-check-input{
+   background-color: #fff !important;
+   border-color: #000 !important;
+    color: #000 !important;
+}
+
+.form-check-label{
+    color: #000 !important;
+}
+
+.btn-outline-danger, .btn-outline-danger:hover{
+    border: 1.5px solid #374988 !important;
+    color:#274690 !important;
+    border-radius: 5px !important;
+}
+
+.btn-outline-danger:hover{
+    background-color: #fff;
+}
+
+.btn-primary{
+    background: #274690 !important;
+    border: none !important;
+    color: #F5F3F5 !important;
+}
+
+.btn-primary:hover{
+    background: #456bc5 !important;
+}
+
+.btn-primary:focus, .btn-outline-danger:focus, .file-path-wrapper input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-lg{
+     height: 60px !important;
+
+      padding: 0.75rem 2rem !important;
+}
+
+.file-path-wrapper input{
+    height: 60px;
+    border: none;
+    background: #ECEFF7;
+    border-radius: 5px;
+}
+
+.file-path-wrapper button{
+    width: 120px;
+    height: 60px;
+}
+
+.file-path-wrapper i{
+   color: #274690 !important;
+}

@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #333333;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.privacy-section h1 {
+  font-size: 48px;
+}
+
+.bg-teal {
+  background-color: #d6f2ff;
+}
+
+.contain {
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+
+.welcome-text h1 {
+  font-size: 48px;
+}
+
+.search-space h1 {
+  margin-bottom: 14rem;
+}
+.box {
+  width: 24px;
+  height: 24px;
+}
+.gap-4 h4 {
+  font-size: 20px;
+  margin-bottom: 5rem;
+  min-height: 4rem;
+  margin-top: 5rem;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) {
+  .search-space h1 {
+    margin-bottom: 4rem;
+  }
+  .gap-4 h4 {
+    margin-bottom: 1rem;
+  }
+}
