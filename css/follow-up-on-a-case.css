@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.follow-up-section h1 {
+  font-size: 48px;
+  margin-bottom: 100px;
+}
+
+.follow-up-section p {
+  font-size: 18px;
+  background-color: #d6f2ff;
+}
+.follow-up-section .input {
+  border-color: #274690;
+  color: black;
+  width: 58%;
+}
+.follow-up-section .btn-outline-primary:hover{
+  background-color: transparent;
+}
+.follow-up-section .btn-primary {
+  background-color: #274690;
+  color: white;
+  width: 36.5%;
+}
+
+.follow-up-section .mb-5 {
+  margin-bottom: 100px !important;
+}
+@media (max-width:450px){
+  .follow-up-section #tex{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+  }
+}
+
