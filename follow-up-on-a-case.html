@@ -6,26 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Follow Up Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/follow-up-on-a-case.css">
+    
+    <link rel="stylesheet" href="css/About-us.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-light ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+            <a class="navbar-brand" href="#"><img src="images/logo.png" class="ms-md-5"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-6 fw-bold p-3">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-6 fw-bold p-3 mx-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="landing-page.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="follow-up-normal-view-2.html">Follow Up Case</a>
-                    </li>
+                    <li class="nav-item dropdown text-dark">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Follow up a case
+                        </a>
+                        <ul class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item text-dark" href="follow-up-normal-view-2.html">User</a></li>
+                          <li><a class="dropdown-item text-dark" href="./follow-up-case-agency-view.html">Agency</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown text-dark">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dashboard
+                        </a>
+                        <ul class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item text-dark" href="dashboard-admin.html">Admin Dashboard</a></li>
+                          <li><a class="dropdown-item text-dark" href="dashboard-agency.html">Agency Dashboard</a></li>
+                        </ul>
+                      </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="about-us.html">About Us</a>
                     </li>
@@ -33,64 +49,96 @@
                         <a class="nav-link active" aria-current="page" href="contact_us.html">Contact Us</a>
                     </li>
                 </ul>
-                <div>  <a  href="report-form-page.html" class=" mt-3 text-light px-5 py-2 text-decoration-none" style="background-color: #274690;">
+                <div>  <a  href="report-form-page.html" class=" mt-3 text-light  py-2 text-decoration-none rounded shadow px-5" style="background-color: #274690; margin-right: 70px;">
                     Submit Report
                 </a>
                     </div>
             </div>
         </div>
     </nav>
-    <section class="container fs-2">
-        <p class="fw-bold">Follow Up On A Case</p>
-    </section>
 
-    <section class=" container col-10 col-md-7 col-lg-7 special d-flex align-items-center justify-content-center">
-        <p class="py-2 text-center fw-bold">Enter the unique Case Id you received via email to view updates on the case</p>
-    </section>
-
-    <section class="row mt-4 ">
-        <div class= "col-12 d-flex justify-content-center">
-            <div class="container d-flex justify-content-center japa">
-                <button class="col-6 col-md-4 col-lg-2 me-1 btn btn-light button-1 text-secondary border-2 rounded-0">Enter Case ID</button>
-                <button class="col-6 col-md-4 col-lg-2 ms-1 button-2 border-0 rounded-2 shadow text-white">Submit</button>
-            </div>
+    <section class="follow-up-section container">
+        <div class="container">
+          <h1 class="fw-bold " id="tex">
+            Follow Up On A case
+          </h1>
         </div>
-    </section>
-
-
-    <script src="./script/bootstrap.min.js"></script>
-    <footer class ="color" class=" text-white pt-5 pb-4">
-        <div class="container text-centre test-md-left">
-         <div class="search">
-            <img src="./images/logo.png" alt="" class="img-fluid w-50">
+        <div class="mx-auto mb-5 follow-text" style="max-width: 660px">
+          <p class="px-4 py-3">
+            Enter the unique Case Id you received via email to view updates on the
+            case
+          </p>
+          <div class="d-flex justify-content-between">
+            
+              <input type="text" placeholder="Enter Case ID" class="input text-center">
+            
+            <a type="button" class="btn btn-primary" href="landing-page.html" ><h3 class="my-1">Submit</h3>
+            </a>
+          </div>
         </div>
-            <div class="row text-center text-md-left mt-5">
-              
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto  d-flex flex-column">
-                    <a href="landing-page.html" class="text-decoration-none text-dark ">Home</a>
-                    <a href="follow-up-normal-view-2.html" class="text-decoration-none text-dark pt-3">Follow Up Case</a>
-                    <a href="about-us.html" class="text-decoration-none text-dark pt-3">About us</a>
-                    <a href="contact_us.html" class="text-decoration-none text-dark pt-3">Contact us</a>
+      </section>
+  
+      <script src="./script/bootstrap.min.js"></script>
+    <footer class="pt-4" style="background: rgba(214, 242, 255, 0.3); ">
+        <div class="container mx-sm-auto mb-0">
+            <div class="row" id="widget1">
+                <div class="col-lg-4 col-md-4 col-sm-6 my-sm-0 mt-4">
+                    <div class="widget mt-5 d-sm-flex align-content-center mx-sm-auto ">
+                       <a href="#"><img src="./images/logo.png" alt="" class="justify-content-sm-center"></a>
+                    </div>
                 </div>
-                
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-auto ">
-    
-                        <h5 class="">Follow Us On</h5>
-               
-                  <p><i class="fab fa-facebook-f"> Facebook</i></p>  
-                   <p> <i class="fab fa-twitter"> Twitter </i></p>
-                   <p><i class="fab fa-instagram"> Instagram </i></p> 
+
+                <div class="col-lg-4 col-md-4 col-sm-6 my-sm-0 mt-4 mx-sm-auto" id="widget2">
+                    <div class="widget">
+                        <ul class="list-unstyled text-light dark-300 mb-1 lh-lg ">
+                            <li class="pb-2">
+                                <a class="text-decoration-none text text-dark" href="landing-page.html">Home</a>
+                            </li>
+        
+                            <li class="pb-2">
+                                <a class="text-decoration-none text-dark py-1" href="follow-up-normal-view-2.html">Follow Up Case</a>
+                            </li>
+        
+                            <li class="pb-2">
+                                <a class="text-decoration-none text-dark py-1" href="about-us.html">About Us</a>
+                            </li>
+        
+                            <li class="pb-2">
+                                <a class="text-decoration-none text-dark py-1" href="contact_us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                       </div>
                 </div>
-              
+
+                <div class="col-lg-4 col-md-4 col-sm-6 my-sm-0 mt-4" id="widget3">
+                    <div class="widget">
+                        <ul class="list-unstyled text-light dark-300 mb-1 lh-lg ">
+                            <h5 class="h5 fw-bold text-dark dark-300">Follow us On</h5>
+                            <li class="pb-2">
+                                <a class="text-decoration-none text text-dark" href="#"><i class="bi bi-facebook"></i> Facebook</a>
+                            </li>
+        
+                            <li class="pb-2">
+                                <a class="text-decoration-none text-dark py-1" href="#"><i class="bi bi-twitter"></i> Twitter</a>
+                            </li>
+        
+                            <li class="pb-2">
+                                <a class="text-decoration-none text-dark py-1" href="#"><i class="bi bi-instagram"></i> Instagram</a>
+                            </li>
+                        </ul>
+                       </div>
+                </div>
+
+                <div class="col-md-12 col-sm-6" id="widget4">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a class="text-decoration-none text-dark py-1 pe-5" href="terms-of-use.html">Terms of Use</a>
+                        <a class="text-decoration-none text-dark py-1" href="privacy.html">Privacy Policy</a>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                       <p><span class="fw-bold">©</span> 2021 Search4me Lagos, Nigeria</p>
+                    </div>
+                </div>
             </div>
-            <div class="policy">
-                <a href="terms-of-use.html" class="text-decoration-none text-dark">Terms of use </a>
-                <a href="privacy.html" class="text-decoration-none text-dark px-3"  >  Privacy Policy </a>
-        </div>
-        <div class="c">
-        <p><img src="images/c.svg" alt="c"></p>
-        <p>2021 Search4me Lagos, Nigeria </p>
-    </div>
         </div>
     </footer>
 </body>

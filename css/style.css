@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
 .search{
     position: absolute;
     margin-top: 100px;
@@ -29,4 +36,21 @@ justify-content: center;
 }
 .me{
     color: rgba(204, 19, 19, 0.856);
+}
+
+@media (max-width:768px) {
+    #button{
+       width: 75%!important;
+       height: auto !important;
+    }
+}
+
+@media (max-width:425px){
+    #button{
+        height: 150px;
+        
+    }
+#widget1,#widget2,#widget3,#widget4{
+        margin: 50px;
+    }
 }

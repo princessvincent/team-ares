@@ -23,7 +23,7 @@ body{
     top: 0px;
     width: 30%;
     min-height: 100vh;
-    background: url("../images/cool-background\ 2.png") no-repeat;
+    background: url("../images/cool-background\ 2.png");
     background-size: cover;
 }
 
@@ -41,5 +41,8 @@ body{
     .bg-login{
         display: none;
     }
-
+    
+    .button{
+        margin-top: 20px;
+    }
 } 

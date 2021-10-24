@@ -45,6 +45,32 @@ body {
   font-weight: bolder;
 }
 
+table {
+  table-layout:fixed;
+  width: inherit !important;
+}
+td, th {
+  width:150px !important;
+  height:75px !important;
+  max-width:150px !important;
+  max-height:75px !important;
+  min-width:150px !important;
+  min-height:75px !important;
+}
+
+.profile i{
+  width: 50px;
+  height: 50px;
+}
+
+.form-check-input{
+ background-color: #fff !important;
+}
+
+.form-check-input svg{
+  stroke: #000 !important;
+}
+
 @media only screen and (max-width: 768px) {
   .search-space h1 {
     margin-bottom: 4rem;
@@ -53,3 +79,57 @@ body {
     margin-bottom: 1rem;
   }
 }
+
+@media (max-width:480px) {
+  .search{
+    padding-top: 20px;
+  }
+  .profile{
+    padding-left: 65px;
+    padding-top: 10px;
+  }
+
+  .profile i{
+    width: 25px;
+    height: 25px;
+  }
+  .img{
+    padding-top: 25px;
+  }
+  .img svg, .img img{
+       width: 20px;
+       height: 20px;
+  }
+
+  #welcome{
+    font-size: 25px;
+  }
+
+  #sort{
+    margin-top: 25px;
+  }
+
+  .welcome-text p{
+    width: 80%;
+  }
+
+ 
+
+
+}
+
+@media (max-width:786px) {
+  .search{
+    padding-top: 20px;
+  }
+  .profile{
+    padding-left: 65px;
+    padding-top: 10px;
+  }
+
+  .profile i{
+    width: 25px;
+    height: 25px;
+  }
+}
+
