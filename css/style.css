@@ -50,7 +50,27 @@ justify-content: center;
         height: 150px;
         
     }
-#widget1,#widget2,#widget3,#widget4{
+/* #widget1,#widget2,#widget3,#widget4{
         margin: 50px;
+        
+    } */
+    #widget1{
+        padding-left: 100px;
+    }
+    
+    #widget2, #widget3{
+        padding-left: 70px;
+    }
+    
+    #widget4{
+        padding-right: 50px;
+    }
+    #terms{
+        width: 350px;
+        padding-right: 100px;
+    }
+    #serc{
+        width: 250px;
+    /* padding-right: 60px; */
     }
 }
